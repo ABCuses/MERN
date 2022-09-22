@@ -1,0 +1,101 @@
+.form {
+    width: 100%;
+    height: 100%;
+    padding: 40px;}
+
+h2 {
+    text-align: center;
+    color: rgb(94, 94, 94);
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 28px;}
+
+.input_box {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_box input {
+    margin: 10px 0;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding : 10px 20px;
+    letter-spacing: 1px;
+    border-radius: 35px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);}
+
+.input_box button {
+   padding: 8px 20px;
+   margin-top: 20px;
+   font-size: 16px;
+   font-weight: 600;
+   border-radius: 35px;
+   border: 0;
+   transition: 0.5s ease-in-out;
+   cursor: pointer;
+}
+.input_box button:hover{
+    background: #333;
+    color: #fff;
+    
+}
+.input_box input::placeholder{
+    color: #fff;
+}
+    
+section {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom,  #bf4ad4, #ffa500,#2b6773, #bf4ad4);}
+    
+    /* .colour {
+        position: absolute;
+        filter : blur(150px);}
+
+    .colour:nth-child(1) {
+        top: -350px;
+        width: 600px;
+        height: 600px;
+        background: #bf4ad4;}
+
+        .colour:nth-child(2) {
+        left: 100px;
+        width: 500px;
+        height: 500px;
+        background: #ffa500;
+        bottom: -150px;}
+
+    .colour:nth-child(3) {
+        right: 190px;
+        width: 300px;
+        bottom: 50px;
+        height: 300px;
+        background: #2b6773;} */
+
+    .container {
+        width: 400px;
+        min-height: 200px;
+        display: flex;
+        border-radius: 10px;
+        backdrop-filter: blur(5px);
+        background: rgba(255, 255, 255, 0.1);
+        box-shadow: 8 25px 45px rgba(0, 0, 0, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        border-right: 1px solid rgba(255, 255, 255, 0.2);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+   

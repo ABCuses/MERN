@@ -1,0 +1,9 @@
+.navbar {
+    height: 30px;
+    background-color:darkgray;
+        }
+.navbar ul{list-style: none;}
+.navbar ul li{display: inline;}
+.navbar ul li a {color: white;
+text-decoration: none;
+font-size: 24px;}
